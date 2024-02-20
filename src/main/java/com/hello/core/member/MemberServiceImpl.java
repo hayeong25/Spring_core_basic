@@ -1,6 +1,6 @@
 package com.hello.core.member;
 
-public class MemberServiceImpl {
+public class MemberServiceImpl implements MemberService {
     private final MemberRepository memberRepository = new MemoryMemberRepository();
 
     public void join(Member member) {
